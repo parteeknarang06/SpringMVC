@@ -40,7 +40,7 @@ public class HibernateFormValidation {
 		 * True- nullyfy the string if empty
 		 * False-donot nullyfy the string if empty
 		 * */
-		StringTrimmerEditor trimmer=new StringTrimmerEditor(true);
+		StringTrimmerEditor trimmer=new StringTrimmerEditor(false);
 		webDataBinder.registerCustomEditor(String.class, trimmer);
 	}
 }

@@ -7,6 +7,7 @@
 		<title>Confirmation</title>
 	</head>
 	<body>
-		<p>Hi ${customer.firstName} ${customer.lastName} you are confirmed</p>
+		<p>Hi ${customer.firstName} ${customer.lastName} you are confirmed with ${customer.freePasses} passes</p>
+		<p> on postal code: ${customer.postalCode}</p>
 	</body>
 </html>
