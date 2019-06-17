@@ -15,5 +15,7 @@
 		<a href="<%=request.getContextPath()%>/services/ctrlB/index">ControllerB Request Mapping</a><br>
 		<a href="<%=request.getContextPath()%>/services/formDataBindcontroller/showPage">Form Data Binding</a><br>
 		<a href="<%=request.getContextPath()%>/services/hibernateValidation/showPage">Hibernate Validation</a><br>
+		<a href="<%=request.getContextPath()%>/services/singletonScope/addScope">Singleton AddScope</a><br>
+		<a href="<%=request.getContextPath()%>/services/singletonScope/checkScope">Singleton get Scope</a><br>
 	</body>
 </html>
