@@ -25,6 +25,7 @@ public class HibernateFormValidation {
 	@RequestMapping("/process")
 	public String processForm(@Valid @ModelAttribute("customer")Customer modelCustomer,BindingResult theBindingResult) {
 		System.out.println("First name|"+modelCustomer.getFirstName()+"|");
+		System.out.println("Binding Result:"+theBindingResult);
 		if(theBindingResult.hasErrors()) 
 			return "/hibernateFormValidation/input";
 		return "/hibernateFormValidation/confirmation";
